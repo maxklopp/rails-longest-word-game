@@ -1,0 +1,7 @@
+<%= @grid %>
+
+<form action="score" method="get">
+  <input type="text" name="attempt"> Question </input>
+  <input type="hidden" name="grid" value="<%= @grid %>"> </input>
+  <button type="submit" > Click to submit </button>
+</form>
